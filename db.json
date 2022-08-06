@@ -1,0 +1,41 @@
+{
+  "productList": [
+    {
+      "productName": "banana",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 200,
+      "comment": "fhresh",
+      "date": "2022-08-10T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "amita",
+      "category": "Electronic",
+      "freshness": "Second hand",
+      "price": 100,
+      "comment": "hi",
+      "date": "2022-08-15T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 200,
+      "comment": "fresh",
+      "date": "2022-08-09T18:30:00.000Z",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
