@@ -1,0 +1,29 @@
+.card{
+    margin-top:15px;
+    border:1 px solid blue;
+    width:550px;
+    padding:45px;
+    position:absolute;
+    top:15%;
+    left:35%;
+    box-shadow: 0 0 10px -2px #444444;
+
+
+}
+/* body{
+    background-color:#0d6efd;
+} */
+h1{
+    font-family:var(--rubik);
+    font-weight: 600;
+    font-size:30px;
+}
+input{
+    height:60px;
+}
+label{
+    font-family:var(--rubik);
+    font-weight: 700;
+    color:var(--blackRock);
+    font-size:17px;
+}

@@ -1,24 +1,6 @@
 {
   "productList": [
     {
-      "productName": "banana",
-      "category": "Fruits",
-      "freshness": "Brand New",
-      "price": 200,
-      "comment": "fhresh",
-      "date": "2022-08-10T18:30:00.000Z",
-      "id": 7
-    },
-    {
-      "productName": "amita",
-      "category": "Electronic",
-      "freshness": "Second hand",
-      "price": 100,
-      "comment": "hi",
-      "date": "2022-08-15T18:30:00.000Z",
-      "id": 8
-    },
-    {
       "productName": "Mango",
       "category": "Fruits",
       "freshness": "Brand New",
@@ -26,6 +8,80 @@
       "comment": "fresh",
       "date": "2022-08-09T18:30:00.000Z",
       "id": 9
+    },
+    {
+      "productName": "grapes",
+      "category": "Vegatables",
+      "freshness": "Second hand",
+      "price": 15,
+      "comment": "fresh",
+      "date": "2022-08-22T18:30:00.000Z",
+      "id": 10
+    },
+    {
+      "productName": "Banana",
+      "category": "Fruits",
+      "freshness": "refurbished",
+      "price": 100,
+      "comment": "this is good",
+      "date": "2022-08-17T18:30:00.000Z",
+      "id": 11
+    },
+    {
+      "productName": "flowers",
+      "category": "Vegatables",
+      "freshness": "refurbished",
+      "price": 5000,
+      "comment": "fresh vegetable",
+      "date": "2022-08-16T18:30:00.000Z",
+      "id": 12
+    }
+  ],
+  "signup": [
+    {
+      "name": "amita",
+      "lastname": null,
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "confirmpassword": "",
+      "id": 1
+    },
+    {
+      "name": "amita",
+      "lastname": "ukande",
+      "email": "amitaukande89@gmail.com",
+      "mobile": "9552988614",
+      "password": "amita@1234",
+      "confirmpassword": "signUp",
+      "id": 2
+    },
+    {
+      "name": "amita",
+      "lastname": "ukande",
+      "email": "amita@123456",
+      "mobile": "9552988614",
+      "password": "Amita@123456",
+      "confirmpassword": "",
+      "id": 3
+    },
+    {
+      "name": "Anu",
+      "lastname": "shree",
+      "email": "anushree123@gmail.com",
+      "mobile": "9552988651",
+      "password": "Anu@shree",
+      "confirmpassword": "Anu@shree",
+      "id": 4
+    },
+    {
+      "name": "",
+      "lastname": null,
+      "email": "",
+      "mobile": "anushree123@gmail.com",
+      "password": "Anu@shree",
+      "confirmpassword": "",
+      "id": 5
     }
   ],
   "comments": [

@@ -36,9 +36,6 @@ export class DialogComponent implements OnInit {
       this.productForm.controls['price'].setValue(this.editData.price);
       this.productForm.controls['comment'].setValue(this.editData.comment);
       this.productForm.controls['date'].setValue(this.editData.date);
-
-
-
     }
   }
 

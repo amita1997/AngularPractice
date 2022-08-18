@@ -1,0 +1,38 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>supervised_user_circle</mat-icon>
+  </button>
+  <span>Angular CRUD</span>
+  <span class="example-spacer"></span>
+  <!-- <button mat-raised-button color="warn" (click)="openDialog()">Add Product</button> -->
+</mat-toolbar>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="">
+                    <h1 class="text-primary">Login</h1>
+                    <h5>Feel Free to Login</h5><hr>
+                    <form [formGroup]="loginForm" (ngSubmit)="logIn()" class="pb-2">
+                        <div class="mb-4">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input  formControlName="email" placeholder="Enter Correct Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <span style="color:red" *ngIf="email && email.invalid && email.touched"> Email is required</span>
+
+                        </div>
+                        <div class="mb-4">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input formControlName="password"   placeholder="Enter Correct password" type="password" class="form-control" id="exampleInputPassword1">
+                          <span style="color:red" *ngIf="password && password.invalid && password.touched"> Password is required</span>
+
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-4 px-5">Login</button>
+                      </form>
+                      <a style="color:blue; margin-top:10px" routerLink="/signup">New User ? Click to Signup !</a>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
